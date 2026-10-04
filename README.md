@@ -12,11 +12,13 @@
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952)
 ![Docker](https://img.shields.io/badge/Docker-Container-2496ed)
 
-# Shopicky (fullstack project) Spring boot 3, Angular 17, Bootstrap, MongoDB, Mockito (2024) (Backend + Frontend)
+# Shopicky • Fullstack Music Streaming Platform (Spring Boot 3 + Angular 17)
 
-Full-stack music streaming application built with **Spring Boot** and **Angular**, featuring JWT authentication, audio file management, album and track organization, and an integrated music player.
+Full-stack music streaming platform built with Spring Boot and Angular, featuring secure authentication, media management, MongoDB GridFS storage, and an integrated audio player.
 
-## Key Features
+This repository is organized as a monorepo containing both the Spring Boot backend and Angular frontend applications.
+
+## ✨ Key Features
 
 * **Music Library Management:** Create, update, browse, and delete albums and tracks.
 * **Secure Authentication:** JWT-based authentication and authorization using Spring Security.
@@ -26,7 +28,7 @@ Full-stack music streaming application built with **Spring Boot** and **Angular*
 * **Advanced Search & Filtering:** Search albums and tracks by various criteria.
 * **Role-Based Access Control:** Administrative actions restricted to authorized users.
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 ### Backend
 
@@ -37,7 +39,8 @@ Full-stack music streaming application built with **Spring Boot** and **Angular*
 * **MongoDB**
 * **GridFS**
 * **Spring Data MongoDB**
-* **JUnit & Mockito**
+* **JUnit**
+* **Mockito**
 * **Docker**
 
 ### Frontend
@@ -48,7 +51,7 @@ Full-stack music streaming application built with **Spring Boot** and **Angular*
 * **TypeScript**
 * **Bootstrap**
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -93,7 +96,7 @@ Frontend available at:
 http://localhost:4200
 ```
 
-## Authentication
+## 🔐 Authentication
 
 ### Public Endpoints
 
@@ -111,16 +114,16 @@ POST /api/auth/login
 
 Authentication is handled through JWT Bearer Tokens.
 
-## Audio Management
+## 🎵 Audio Management
 
 * Upload audio files up to **15 MB**
 * Supported formats:
-* MP3
-* WAV
-* OGG
+    * MP3
+    * WAV
+    * OGG
 * Secure file storage using **MongoDB GridFS**
 
-## Architecture Highlights
+## 🏗️ Architecture Highlights
 
 ### Backend
 
@@ -140,12 +143,9 @@ Authentication is handled through JWT Bearer Tokens.
 * Resolvers
 * Reactive State Management with NgRx
 
-## Project Status
+## 📦 Project Status
 
-**Completed • Full-Stack Learning Project**
+**Completed • Full-Stack Showcase Project**
 
 This project demonstrates full-stack development practices by combining a secure Spring Boot backend with a modern Angular frontend for music streaming and media management.
 
-<br><br><br><br>
-
-<div align="right" style="color: gray;">Produced by RedaBensaad</div>   
