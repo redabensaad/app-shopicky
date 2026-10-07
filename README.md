@@ -12,140 +12,87 @@
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952)
 ![Docker](https://img.shields.io/badge/Docker-Container-2496ed)
 
-# Shopicky • Fullstack Music Streaming Platform (Spring Boot 3 + Angular 17)
+# Shopicky
 
-Full-stack music streaming platform built with Spring Boot and Angular, featuring secure authentication, media management, MongoDB GridFS storage, and an integrated audio player.
+Music streaming platform combining media management, secure authentication and integrated audio playback.
 
-This repository is organized as a monorepo containing both the Spring Boot backend and Angular frontend applications.
+> \> [Live Preview](https://redabensaad.github.io/shopicky)
 
-## ✨ Key Features
+---
 
-* **Music Library Management:** Create, update, browse, and delete albums and tracks.
-* **Secure Authentication:** JWT-based authentication and authorization using Spring Security.
-* **Audio File Storage:** Upload and manage audio files securely with MongoDB GridFS.
-* **Integrated Music Player:** Play, pause, skip tracks, control volume, and track progress.
-* **State Management:** Centralized frontend state using NgRx.
-* **Advanced Search & Filtering:** Search albums and tracks by various criteria.
-* **Role-Based Access Control:** Administrative actions restricted to authorized users.
+$ Context
 
-## 🛠️ Technologies Used
+Shopicky is a full-stack music streaming platform designed to manage albums, tracks and audio files through a modern web interface.
 
-### Backend
+The repository follows a monorepo architecture containing both the Spring Boot backend and Angular frontend applications.
 
-* **Java 17**
-* **Spring Boot**
-* **Spring Security**
-* **JWT Authentication**
-* **MongoDB**
-* **GridFS**
-* **Spring Data MongoDB**
-* **JUnit**
-* **Mockito**
-* **Docker**
+---
 
-### Frontend
+$ Domain
 
-* **Angular 17**
-* **NgRx**
-* **RxJS**
-* **TypeScript**
-* **Bootstrap**
+> \> Music streaming<br>
+> \> Media management<br>
+> \> Audio playback<br>
+> \> Music libraries<br>
+> \> Content administration<br>
 
-## 🚀 Getting Started
+---
 
-### Prerequisites
+$ What Was Built
 
-* **Java 17+**
-* **Node.js**
-* **Angular CLI**
-* **MongoDB**
-* **Maven**
+> \> Music library management<br>
+> \> Album management<br>
+> \> Track management<br>
+> \> Audio file uploads<br>
+> \> Integrated music player<br>
+> \> Playlist-style navigation<br>
+> \> Advanced search and filtering<br>
+> \> JWT authentication workflows<br>
+> \> Role-based access control<br>
+> \> Media streaming experience<br>
 
-### Clone Repository
+---
 
-```bash
-git clone https://github.com/redabensaad/shopicky.git
-cd shopicky
-```
+$ Technical Stack
 
-### Backend Setup
+> \> Java 17<br>
+> \> Spring Boot 3.2<br>
+> \> Spring Security 6<br>
+> \> JWT Authentication<br>
+> \> MongoDB<br>
+> \> GridFS<br>
+> \> Spring Data MongoDB<br>
+> \> Angular 17<br>
+> \> TypeScript<br>
+> \> NgRx<br>
+> \> RxJS<br>
+> \> Bootstrap 5<br>
+> \> Docker<br>
+> \> Maven<br>
 
-```bash
-cd shopicky-backend
-mvn clean install
-mvn spring-boot:run
-```
+---
 
-Backend available at:
+$ Architecture
 
-```text
-http://localhost:8080
-```
+The application follows a full-stack architecture composed of a Spring Boot backend and an Angular frontend.
 
-### Frontend Setup
+Audio files are stored using MongoDB GridFS while authentication and authorization are handled through Spring Security and JWT-based workflows.
 
-```bash
-cd shopicky-frontend
-npm install
-ng serve
-```
+The frontend relies on NgRx and RxJS to manage application state, media playback interactions and data synchronization.
 
-Frontend available at:
+---
 
-```text
-http://localhost:4200
-```
+$ Project Status
 
-## 🔐 Authentication
+> \> Completed project<br>
+> \> Full-stack application<br>
+> \> Monorepo architecture<br>
+> \> Music streaming platform<br>
 
-### Public Endpoints
+---
 
-```text
-POST /api/auth/register
-POST /api/auth/login
-```
+$ Notes
 
-### Protected Resources
+This project showcases media storage, authentication, state management and modern full-stack application development.
 
-* Album Management
-* Track Management
-* User Management
-* Audio File Operations
-
-Authentication is handled through JWT Bearer Tokens.
-
-## 🎵 Audio Management
-
-* Upload audio files up to **15 MB**
-* Supported formats:
-    * MP3
-    * WAV
-    * OGG
-* Secure file storage using **MongoDB GridFS**
-
-## 🏗️ Architecture Highlights
-
-### Backend
-
-* RESTful API Design
-* JWT Authentication
-* Global Exception Handling
-* Environment Profiles
-* Unit Testing
-* Layered Architecture
-
-### Frontend
-
-* Feature-Based Architecture
-* Lazy Loading
-* Route Guards
-* HTTP Interceptors
-* Resolvers
-* Reactive State Management with NgRx
-
-## 📦 Project Status
-
-**Completed • Full-Stack Showcase Project**
-
-This project demonstrates full-stack development practices by combining a secure Spring Boot backend with a modern Angular frontend for music streaming and media management.
-
+Particular attention was given to audio management, secure content access and frontend-backend integration.
