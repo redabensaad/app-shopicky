@@ -96,3 +96,16 @@ $ Notes
 This project showcases media storage, authentication, state management and modern full-stack application development.
 
 Particular attention was given to audio management, secure content access and frontend-backend integration.
+
+---
+
+$ Preview
+
+![Shopicky](shot/shopicky.png)
+
+---
+
+$ Built
+
+✓ Nov 2025
+
